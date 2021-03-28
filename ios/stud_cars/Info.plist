@@ -54,6 +54,8 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>NOVABOLD.otf</string>
+		<string>Raphtalia.otf</string>
+		<string>BlackRocker-ZVOpB.otf</string>
 	</array>
 </dict>
 </plist>
