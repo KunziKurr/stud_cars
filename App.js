@@ -25,7 +25,7 @@ import Home from './src/Components/home/home';
  const styles = StyleSheet.create({
   wrapper:{
     flex:1,
-backgroundColor: '#273a40',
+backgroundColor: '#1c1c1c',
 // justifyContent:'center',
 // 	    alignItems:'center',
 },
