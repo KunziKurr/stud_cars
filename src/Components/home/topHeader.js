@@ -11,9 +11,9 @@ export default class Homeheader extends Component {
         (
         <View style={styles.bodyContainer}>
             <View style={styles.StudContainer}>
-                <Text style={styles.StudContainerName}>Stud Cards</Text>
-                <Text style={styles.StudContainerNameSub1}>Stud Cards</Text>
-                <Text style={styles.StudContainerNameSub2}>Stud Cards</Text>
+                <Text style={styles.StudContainerName}>Stud Cars</Text>
+                <Text style={styles.StudContainerNameSub1}>Stud Cars</Text>
+                <Text style={styles.StudContainerNameSub2}>Stud Cars</Text>
             </View>
             {/* END OF STUD CONTAINER */}
              <View style={styles.parentListContainer}>
@@ -132,13 +132,25 @@ export default class Homeheader extends Component {
         height:300,
     },
     StudContainerName:{
-        color:'#fff'
+        color:'#fff',
+        fontSize:70,
+        fontFamily:"NOVABOLD",
+        paddingLeft:30,
+        marginTop:10
     },
     StudContainerNameSub1:{
-        color:'#fff'
+        color:'#fff',
+        fontSize:35,
+        paddingLeft:30,
+        marginTop:10,
+        fontFamily:'NOVABOLD'
     },
     StudContainerNameSub2:{
-        color:'#fff'
+        color:'#fff',
+        fontSize:20,
+        paddingLeft:30,
+        marginTop:10,
+        fontFamily:'NOVABOLD'
     },
     parentListContainer:{
         position:'relative',
@@ -154,7 +166,9 @@ export default class Homeheader extends Component {
         alignItems: 'center',
         alignSelf: 'center',
         borderRadius:30,
-        flexDirection:'column'
+        flexDirection:'column',
+       
+        
         
     },
     listContainerElement:{
@@ -190,6 +204,8 @@ export default class Homeheader extends Component {
         color:'#b6b6b6',
         marginLeft:70,
         justifyContent:'center',
+        fontFamily:'jumpie',
+        lineHeight:22
     //     left:70,
     //     overflow:'hidden',
     //     paddingRight:20

@@ -15,6 +15,8 @@
 		420F490C35504A6B86632079 /* NOVABOLD.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C57176776694C208D6347C8 /* NOVABOLD.otf */; };
 		D306CE3BE561430BADEB7192 /* Raphtalia.otf in Resources */ = {isa = PBXBuildFile; fileRef = 23650D369F6544DAA914F0B6 /* Raphtalia.otf */; };
 		6E0CBEFCBC3D4EA7BEF98CC6 /* BlackRocker-ZVOpB.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7908522DBA5149D1B5218D57 /* BlackRocker-ZVOpB.otf */; };
+		8B5F1E8F57E84FFC8BBFECB8 /* aila.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74A4168E166540E8A03693D4 /* aila.ttf */; };
+		5D3FF2B8A3FF4320934B629C /* jumpie.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC14940535DD4EFE8537AF2F /* jumpie.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		8C57176776694C208D6347C8 /* NOVABOLD.otf */ = {isa = PBXFileReference; name = "NOVABOLD.otf"; path = "../src/Assets/fonts/NOVABOLD.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		23650D369F6544DAA914F0B6 /* Raphtalia.otf */ = {isa = PBXFileReference; name = "Raphtalia.otf"; path = "../src/Assets/fonts/Raphtalia.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		7908522DBA5149D1B5218D57 /* BlackRocker-ZVOpB.otf */ = {isa = PBXFileReference; name = "BlackRocker-ZVOpB.otf"; path = "../src/Assets/fonts/BlackRocker-ZVOpB.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		74A4168E166540E8A03693D4 /* aila.ttf */ = {isa = PBXFileReference; name = "aila.ttf"; path = "../src/Assets/fonts/aila.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC14940535DD4EFE8537AF2F /* jumpie.otf */ = {isa = PBXFileReference; name = "jumpie.otf"; path = "../src/Assets/fonts/jumpie.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 				8C57176776694C208D6347C8 /* NOVABOLD.otf */,
 				23650D369F6544DAA914F0B6 /* Raphtalia.otf */,
 				7908522DBA5149D1B5218D57 /* BlackRocker-ZVOpB.otf */,
+				74A4168E166540E8A03693D4 /* aila.ttf */,
+				CC14940535DD4EFE8537AF2F /* jumpie.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -235,6 +241,8 @@
 				420F490C35504A6B86632079 /* NOVABOLD.otf in Resources */,
 				D306CE3BE561430BADEB7192 /* Raphtalia.otf in Resources */,
 				6E0CBEFCBC3D4EA7BEF98CC6 /* BlackRocker-ZVOpB.otf in Resources */,
+				8B5F1E8F57E84FFC8BBFECB8 /* aila.ttf in Resources */,
+				5D3FF2B8A3FF4320934B629C /* jumpie.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
