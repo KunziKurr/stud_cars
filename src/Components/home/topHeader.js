@@ -12,8 +12,8 @@ export default class Homeheader extends Component {
         <View style={styles.bodyContainer}>
             <View style={styles.StudContainer}>
                 <Text style={styles.StudContainerName}>Stud Cars</Text>
-                <Text style={styles.StudContainerNameSub1}>Stud Cars</Text>
-                <Text style={styles.StudContainerNameSub2}>Stud Cars</Text>
+                <Text style={styles.StudContainerNameSub1}>Be in the know</Text>
+                <Text style={styles.StudContainerNameSub2}>Middle Range</Text>
             </View>
             {/* END OF STUD CONTAINER */}
              <View style={styles.parentListContainer}>
@@ -133,16 +133,16 @@ export default class Homeheader extends Component {
     },
     StudContainerName:{
         color:'#fff',
-        fontSize:70,
+        fontSize:75,
         fontFamily:"NOVABOLD",
         paddingLeft:30,
         marginTop:10
     },
     StudContainerNameSub1:{
         color:'#fff',
-        fontSize:35,
+        fontSize:30,
         paddingLeft:30,
-        marginTop:10,
+        marginTop:5,
         fontFamily:'NOVABOLD'
     },
     StudContainerNameSub2:{
@@ -150,12 +150,13 @@ export default class Homeheader extends Component {
         fontSize:20,
         paddingLeft:30,
         marginTop:10,
-        fontFamily:'NOVABOLD'
+        fontFamily:'Raphtalia'
     },
     parentListContainer:{
         position:'relative',
         margin:'auto',
-        flex:1
+        height:20,
+        overflow:'scroll'
     },
     listContainer:{
         width:width_proportion,
