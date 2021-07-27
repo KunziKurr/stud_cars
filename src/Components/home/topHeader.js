@@ -18,102 +18,88 @@ export default class Homeheader extends Component {
             {/* END OF STUD CONTAINER */}
              <View style={styles.parentListContainer}>
             
-                <View style={styles.listContainer}>
+                
                 <SafeAreaView>
-                <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+                <ScrollView contentContainerStyle={{ flexGrow: 1, flex:1 }}>
+
+
+
                             <View style={styles.listContainerElement}>
-                            <Image
-                                style={styles.tinyLogo}
-                                source={require('../../Assets/Images/stud_cars1.png')}/>
-                            <Text style={styles.listHeading}>Car Name</Text>
+                                <Image
+                                    style={styles.tinyLogo}
+                                    source={require('../../Assets/Images/stud_cars1.png')}/>
+                                <Text style={styles.listContainer}>Car Name</Text>
                             <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
                             and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
                             since the 1500s, </Text>
 
                             </View>
+
                             <View style={styles.listContainerElement}>
-                            <Image
-                                style={styles.tinyLogo}
-                                source={require('../../Assets/Images/stud_cars1.png')}/>
-                            <Text style={styles.listHeading}>Car Name</Text>
-                            <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
-                            since the 1500s, </Text>
+                                <Image
+                                    style={styles.tinyLogo}
+                                    source={require('../../Assets/Images/stud_cars1.png')}/>
+                                <Text style={styles.listContainer}>Car Name</Text>
+                                <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
+                                since the 1500s, </Text> 
 
                             </View>
-                            <View style={styles.listContainerElement}>
-                            <Image
-                                style={styles.tinyLogo}
-                                source={require('../../Assets/Images/stud_cars1.png')}/>
-                            <Text style={styles.listHeading}>Car Name</Text>
-                            <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
-                            since the 1500s, </Text>
+                               <View style={styles.listContainerElement}>
+                                <Image
+                                    style={styles.tinyLogo}
+                                    source={require('../../Assets/Images/stud_cars1.png')}/>
+                                <Text style={styles.listContainer}>Car Name</Text>
+                                <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
+                                since the 1500s, </Text> 
 
                             </View>
-                            <View style={styles.listContainerElement}>
-                            <Image
-                                style={styles.tinyLogo}
-                               source={require('../../Assets/Images/stud_cars1.png')}/>
-                            <Text style={styles.listHeading}>Car Name</Text>
-                            <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
-                            since the 1500s, </Text>
+                               <View style={styles.listContainerElement}>
+                                <Image
+                                    style={styles.tinyLogo}
+                                    source={require('../../Assets/Images/stud_cars1.png')}/>
+                                <Text style={styles.listContainer}>Car Name</Text>
+                                <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
+                                since the 1500s, </Text> 
 
                             </View>
-                            <View style={styles.listContainerElement}>
-                            <Image
-                                style={styles.tinyLogo}
-                               source={require('../../Assets/Images/stud_cars1.png')}/>
-                            <Text style={styles.listHeading}>Car Name</Text>
-                            <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
-                            since the 1500s, </Text>
+                               <View style={styles.listContainerElement}>
+                                <Image
+                                    style={styles.tinyLogo}
+                                    source={require('../../Assets/Images/stud_cars1.png')}/>
+                                <Text style={styles.listContainer}>Car Name</Text>
+                                <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
+                                since the 1500s, </Text> 
 
                             </View>
-                            <View style={styles.listContainerElement}>
-                            <Image
-                                style={styles.tinyLogo}
-                               source={require('../../Assets/Images/stud_cars1.png')}/>
-                            <Text style={styles.listHeading}>Car Name</Text>
-                            <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
-                            since the 1500s, </Text>
+                               <View style={styles.listContainerElement}>
+                                <Image
+                                    style={styles.tinyLogo}
+                                    source={require('../../Assets/Images/stud_cars1.png')}/>
+                                <Text style={styles.listContainer}>Car Name</Text>
+                                <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
+                                since the 1500s, </Text> 
 
                             </View>
-                            <View style={styles.listContainerElement}>
-                            <Image
-                                style={styles.tinyLogo}
-                               source={require('../../Assets/Images/stud_cars1.png')}/>
-                            <Text style={styles.listHeading}>Car Name</Text>
-                            <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
-                            since the 1500s, </Text>
+                               <View style={styles.listContainerElement}>
+                                <Image
+                                    style={styles.tinyLogo}
+                                    source={require('../../Assets/Images/stud_cars1.png')}/>
+                                <Text style={styles.listContainer}>Car Name</Text>
+                                <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
+                                since the 1500s, </Text> 
 
                             </View>
-                            <View style={styles.listContainerElement}>
-                            <Image
-                                style={styles.tinyLogo}
-                               source={require('../../Assets/Images/stud_cars1.png')}/>
-                            <Text style={styles.listHeading}>Car Name</Text>
-                            <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
-                            since the 1500s, </Text>
 
-                            </View>
-                            <View style={styles.listContainerElement}>
-                            <Image
-                                style={styles.tinyLogo}
-                               source={require('../../Assets/Images/stud_cars1.png')}/>
-                            <Text style={styles.listHeading}>Car Name</Text>
-                            <Text style={styles.listBriefContent}> Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever 
-                            since the 1500s, </Text>
-
-                            </View>
+                            
                             </ScrollView>
                             </SafeAreaView>
-                </View>
+            
                
             </View>          
         </View> 
@@ -156,35 +142,37 @@ export default class Homeheader extends Component {
         position:'relative',
         margin:'auto',
         height:20,
-        overflow:'scroll'
+        overflow:'scroll',
+        // backgroundColor:'blue'
     },
     listContainer:{
-        width:width_proportion,
         position:'absolute',
-        left:12.5,
+        left:68,
         right:0,
+        top:15, 
         justifyContent: 'center', 
         alignItems: 'center',
         alignSelf: 'center',
         borderRadius:30,
-        flexDirection:'column',
-       
-        
-        
+        flexDirection:'column', 
+        color:'#fff'
     },
     listContainerElement:{
         marginTop:2,
         marginBottom:20,
+        marginLeft:25,
+        marginRight:20,
         borderRadius:20,
-        backgroundColor:'#161616',
+         backgroundColor:'#161616',
         height:150,
+        // backgroundColor:'#fff',
         position:'relative',
-        padding:20,
+        // padding:20,
         alignItems:'center',
         elevation:3,
-        shadowColor:'#110011',
+        shadowColor:'#ddd',
         flexDirection:'row',
-        // width:450,
+        width:'90%'
     },
     tinyLogo:{
         height:110,
@@ -195,21 +183,25 @@ export default class Homeheader extends Component {
     },
     listHeading:{
         color:'#b6b6b6',
-        position:'absolute',
-        top:15,
+        position:'relative',
+        top:-45,
         fontSize:25,
         left:90,
         fontFamily:"NOVABOLD"
     },  
      listBriefContent:{
         color:'#b6b6b6',
-        marginLeft:70,
+        // marginLeft:10,
         justifyContent:'center',
         fontFamily:'jumpie',
-        lineHeight:22
-    //     left:70,
-    //     overflow:'hidden',
-    //     paddingRight:20
+        lineHeight:22,
+        // paddingRight:90,
+        position:'absolute',
+        left:68,
+        maxWidth: width_proportion,
+        minWidth: width_proportion,
+        width:width_proportion
+
      }
     
   });
